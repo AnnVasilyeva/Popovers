@@ -26,5 +26,4 @@ describe('Popover', () => {
     button.click();
     await page.waitForSelector('[data-widget="popover-top"].active');
   });
-
 });
